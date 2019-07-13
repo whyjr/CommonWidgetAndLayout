@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="aoto.com.commonwidgetandlayout.basic_widget.autoText.AutoTextActivity">
+
+    <AutoCompleteTextView
+        android:id="@+id/autoCompleteTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:completionThreshold="1"
+        android:dropDownSelector="@color/colorPrimary"
+        android:hint="Please enter your country"
+        android:lines="1"
+        android:singleLine="true" />
+
+    <MultiAutoCompleteTextView
+        android:id="@+id/multiAutoCompleteTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:completionThreshold="1"
+        android:dropDownSelector="@color/colorPrimary"
+        android:hint="Please edit your birthday"
+        android:lines="1"
+        android:singleLine="true" />
+
+</LinearLayout>

@@ -1,0 +1,98 @@
+<resources>
+    <string name="app_name">CommonWidgetAndLayout</string>
+
+    <string-array name="year_list">
+        <item>年</item>
+        <item>1990</item>
+        <item>1991</item>
+        <item>1992</item>
+        <item>1993</item>
+        <item>1994</item>
+        <item>1995</item>
+    </string-array>
+
+    <string-array name="month_list">
+        <item>月</item>
+        <item>01</item>
+        <item>02</item>
+        <item>03</item>
+        <item>04</item>
+        <item>05</item>
+        <item>06</item>
+        <item>07</item>
+        <item>08</item>
+        <item>09</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+    </string-array>
+
+    <string-array name="day_list">
+        <item>日</item>
+        <item>01</item>
+        <item>02</item>
+        <item>03</item>
+        <item>04</item>
+        <item>05</item>
+        <item>06</item>
+        <item>07</item>
+        <item>08</item>
+        <item>09</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+    </string-array>
+
+    <string-array name="country_array">
+        <item>China</item>
+        <item>America</item>
+        <item>Angola</item>
+        <item>Austria</item>
+        <item>Japan</item>
+        <item>France</item>
+        <item>Finland</item>
+        <item>Fiji</item>
+        <item>Italy</item>
+        <item>India</item>
+        <item>Iraq</item>
+        <item>Germany</item>
+        <item>Georgia </item>
+        <item>Gambia</item>
+        <item>Congo</item>
+        <item>Chile</item>
+        <item>Colombia</item>
+        <item>Cuba</item>
+    </string-array>
+
+    <string-array name="hobby_array">
+        <item>basketball</item>
+        <item>football</item>
+        <item>travel</item>
+        <item>game</item>
+        <item>movie</item>
+        <item>music</item>
+        <item>dance</item>
+        <item>gym</item>
+    </string-array>
+
+    <string-array name="time_array">
+        <item>1993</item>
+        <item>1994</item>
+        <item>1995</item>
+        <item>1996</item>
+        <item>1997</item>
+        <item>1998</item>
+        <item>01</item>
+        <item>02</item>
+        <item>03</item>
+        <item>04</item>
+        <item>05</item>
+        <item>21</item>
+        <item>22</item>
+        <item>23</item>
+        <item>24</item>
+        <item>25</item>
+        <item>26</item>
+
+    </string-array>
+</resources>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="aoto.com.commonwidgetandlayout">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".basic_widget.ImageButton.ImageButtonActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MainActivity" />
+        <activity android:name=".basic_widget.button.ButtonActivity" />
+        <activity android:name=".basic_widget.toggelButton.ToggleButtonActivity" />
+        <activity android:name=".basic_widget.checkBox.CheckBoxActivity" />
+        <activity android:name=".basic_widget.radioButton.RadioButtonActivity" />
+        <activity android:name=".basic_widget.radioButton.RadioButton2Activity" />
+        <activity android:name=".basic_widget.checkedTextView.CTextViewActivity" />
+        <activity android:name=".basic_widget.checkedTextView.CTextViewTestActivity" />
+        <activity android:name=".basic_widget.spinner.SpinnerActivity" />
+        <activity android:name=".basic_widget.spinner.SelfSpinnerActivity" />
+        <activity android:name=".basic_widget.progressBar.ProgressBarActivity" />
+        <activity android:name=".basic_widget.seekBar.SeekBarActivity" />
+        <activity android:name=".basic_widget.ratingBar.RatingBarActivity" />
+        <activity android:name=".basic_widget.switchP.SwitchActivity" />
+        <activity android:name=".basic_widget.space.SpaceActivity" />
+        <activity android:name=".basic_widget.textView.TextViewActivity" />
+        <activity android:name=".basic_widget.editText.EditTextActivity" />
+        <activity android:name=".basic_widget.autoText.AutoTextActivity" />
+        <activity android:name=".basic_widget.imageView.ImageViewActivity" />
+        <activity android:name=".basic_widget.imageView.ImageActivity2" />
+        <activity android:name=".basic_widget.videoView.VideoViewActivity"></activity>
+    </application>
+
+</manifest>

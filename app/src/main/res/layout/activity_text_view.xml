@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="aoto.com.commonwidgetandlayout.basic_widget.textView.TextViewActivity">
+
+    <!--<TextView-->
+    <!--android:id="@+id/textView_test1"-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:background="@drawable/rectangle"-->
+    <!--android:lineSpacingMultiplier="0.0"-->
+    <!--android:text="测试文本行属性测试文本行属性测试测试文本行属性!!!测试文本行属性测试测试文本行属性测试文本行属性!!!测试文本行属性测试文本行属性测试测试文本行属性!!!测试文本行属性测试测试文本行属性测试文本行属性!!!"-->
+    <!--android:textColorHint="@color/colorPrimary"-->
+    <!--android:textSize="25sp" />-->
+
+    <!--<Button-->
+    <!--android:onClick="showText"-->
+    <!--android:text="测试"-->
+    <!--android:ellipsize="start"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content" />-->
+
+    <!--<TextView-->
+    <!--android:layout_marginTop="40dp"-->
+    <!--android:textColor="@color/colorPrimary"-->
+    <!--android:marqueeRepeatLimit="marquee_forever"-->
+    <!--android:text="Welcome to Android world,here you can enjoy the happiness of Mobile terminal programming"-->
+    <!--android:textSize="25sp"-->
+    <!--android:textAllCaps="false"-->
+    <!--android:singleLine="true"-->
+    <!--android:ellipsize="marquee"-->
+    <!--android:focusable="true"-->
+    <!--android:focusableInTouchMode="true"-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content" />-->
+
+    <!--<TextView-->
+    <!--android:gravity="center"-->
+    <!--android:text="操纵杆"-->
+    <!--android:textSize="10sp"-->
+    <!--android:drawableStart="@drawable/left_drawable"-->
+    <!--android:drawableEnd="@drawable/right_drawable"-->
+    <!--android:drawableTop="@drawable/top_drawable"-->
+    <!--android:drawableBottom="@drawable/bottom_drawable"-->
+    <!--android:layout_width="100dp"-->
+    <!--android:layout_height="100dp" />-->
+
+    <!--<TextView-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:paddingLeft="50dp"-->
+        <!--android:paddingRight="50dp"-->
+        <!--android:paddingTop="50dp"-->
+        <!--android:paddingBottom="50dp"-->
+        <!--android:gravity="center"-->
+        <!--android:text="测试文本"-->
+        <!--android:textSize="20sp" />-->
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingVertical="50dp"
+        android:paddingHorizontal="50dp"
+        android:gravity="center"
+        android:text="测试文本"
+        android:textSize="20sp" />
+</LinearLayout>

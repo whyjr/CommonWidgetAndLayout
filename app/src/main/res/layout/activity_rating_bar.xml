@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    tools:context="aoto.com.commonwidgetandlayout.basic_widget.ratingBar.RatingBarActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal">
+
+        <RatingBar
+            android:id="@+id/rating_bar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            />
+
+        <Button
+            android:layout_marginTop="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:onClick="updateRating"
+            android:text="更新" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal">
+
+        <RatingBar
+            android:id="@+id/rating_bar1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/MyRatingBarStyle1"
+            android:layout_marginTop="20dp"
+            />
+
+        <Button
+            android:layout_marginTop="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:onClick="updateRating1"
+            android:text="更新" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal">
+
+        <RatingBar
+            android:id="@+id/rating_bar2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/MyRatingBarStyle2"
+            android:layout_marginTop="20dp"
+            />
+
+        <Button
+            android:layout_marginTop="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:onClick="updateRating2"
+            android:text="更新" />
+    </LinearLayout>
+
+
+
+    <!--<RatingBar-->
+    <!--android:id="@+id/rating_bar"-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_marginTop="20dp"-->
+    <!--/>-->
+
+    <!--<RatingBar-->
+    <!--android:id="@+id/rating_bar1"-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_marginTop="20dp"-->
+    <!--/>-->
+
+    <!--<RatingBar-->
+    <!--android:id="@+id/rating_bar2"-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_marginTop="20dp"-->
+    <!--android:max="5"-->
+    <!--/>-->
+
+    <!--<RatingBar-->
+    <!--android:id="@+id/rating_bar3"-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_marginTop="20dp"-->
+    <!--android:max="5"-->
+    <!--/>-->
+
+
+    <!--<RatingBar-->
+    <!--android:id="@+id/rating_bar0"-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_marginTop="20dp"-->
+    <!--style="@style/Widget.AppCompat.RatingBar"-->
+    <!--android:max="5" />-->
+
+    <!--<RatingBar-->
+    <!--android:id="@+id/rating_bar1"-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--style="@style/Widget.AppCompat.RatingBar.Small"-->
+    <!--android:layout_marginTop="20dp"-->
+    <!--android:max="5" />-->
+
+    <!--<RatingBar-->
+    <!--android:id="@+id/rating_bar2"-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--style="@style/Base.Widget.AppCompat.RatingBar.Small"-->
+    <!--android:layout_marginTop="20dp"-->
+    <!--android:max="5"-->
+  <!--/>-->
+
+    <!--<RatingBar-->
+    <!--android:id="@+id/rating_bar3"-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--style="@style/Widget.AppCompat.RatingBar.Indicator"-->
+    <!--android:layout_marginTop="20dp"-->
+    <!--android:max="5"-->
+     <!--/>-->
+
+</LinearLayout>

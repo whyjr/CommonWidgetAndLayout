@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context="aoto.com.commonwidgetandlayout.basic_widget.ImageButton.ImageButtonActivity">
+
+    <!--<ImageButton-->
+        <!--android:id="@+id/test_image_button"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:background="#00ffffff"-->
+        <!--android:src="@drawable/image_button_test_start" />-->
+
+    <!--<TextView-->
+        <!--android:layout_marginTop="20dp"-->
+        <!--android:id="@+id/opener_label"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:textSize="20sp"-->
+        <!--android:text="状态：开" />-->
+
+    <LinearLayout
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <!--<ImageButton-->
+        <!--android:layout_marginLeft="20dp"-->
+        <!--android:src="@drawable/bear_face"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content" />-->
+        <!--<ImageButton-->
+        <!--android:layout_marginLeft="20dp"-->
+        <!--android:background="@drawable/bear_photo_back"-->
+        <!--android:src="@drawable/bear_face"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content" />-->
+
+        <ImageButton
+            android:background="@drawable/bear_photo_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:background="@drawable/bear_photo_back"
+            android:text="Button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAllCaps="false" />
+    </LinearLayout>
+
+</LinearLayout>
